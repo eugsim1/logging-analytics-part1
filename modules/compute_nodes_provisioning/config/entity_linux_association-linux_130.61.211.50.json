@@ -1,0 +1,88 @@
+ {
+   "compartmentId": "ocid1.compartment.oc1..aaaaaaaaqhhyjrkidluilxlgk5xer7sox6x7ngcak7hfey3iuvcv45s5oz7a",
+  "isFromRepublish": true,
+   "namespaceName": "frnj6sfkc1ep",
+    "items": [
+      {
+        
+        "agent-id": "ocid1.managementagent.oc1.eu-frankfurt-1.amaaaaaaufnzx7ia6vegxvpklhw23ulkjpofmrm5rm3edum66gosxafncvwq",
+        "entity-id": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaaufnzx7ial7km6jxslsnhbd7x6msd5lvrndqf7mz5u57vgktnw7ha",
+        "entity-name": "linux_130.61.211.50",  
+        "entity-type-name": "omc_host_linux",                   
+        "log-group-compartment": "ocid1.compartment.oc1..aaaaaaaaqhhyjrkidluilxlgk5xer7sox6x7ngcak7hfey3iuvcv45s5oz7a",
+        "log-group-id": "ocid1.loganalyticsloggroup.oc1.eu-frankfurt-1.amaaaaaaufnzx7iakfepgantk22dx4fay7fmhwsx6mmshrdthwwdkg5a7hua",
+        "log-group-name": "analytics001",        
+        "source-display-name": "Ksplice Logs",
+        "source-name": "KspliceLogSource",
+        "source-type-name": "os_file"        
+      },
+      {
+        
+        "agent-id": "ocid1.managementagent.oc1.eu-frankfurt-1.amaaaaaaufnzx7ia6vegxvpklhw23ulkjpofmrm5rm3edum66gosxafncvwq",
+        "entity-id": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaaufnzx7ial7km6jxslsnhbd7x6msd5lvrndqf7mz5u57vgktnw7ha",
+        "entity-name": "linux_130.61.211.50",
+    
+        "entity-type-name": "omc_host_linux",       
+        "log-group-compartment": "ocid1.compartment.oc1..aaaaaaaaqhhyjrkidluilxlgk5xer7sox6x7ngcak7hfey3iuvcv45s5oz7a",
+        "log-group-id": "ocid1.loganalyticsloggroup.oc1.eu-frankfurt-1.amaaaaaaufnzx7iakfepgantk22dx4fay7fmhwsx6mmshrdthwwdkg5a7hua",
+        "log-group-name": "analytics001",
+        "source-display-name": "Linux Audit Logs",
+        "source-name": "AuditLogSource",
+        "source-type-name": "os_file"    
+      },
+      {
+        
+        "agent-id": "ocid1.managementagent.oc1.eu-frankfurt-1.amaaaaaaufnzx7ia6vegxvpklhw23ulkjpofmrm5rm3edum66gosxafncvwq",
+        "entity-id": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaaufnzx7ial7km6jxslsnhbd7x6msd5lvrndqf7mz5u57vgktnw7ha",
+        "entity-name": "linux_130.61.211.50",
+        
+        "entity-type-name": "omc_host_linux",       
+       "log-group-compartment": "ocid1.compartment.oc1..aaaaaaaaqhhyjrkidluilxlgk5xer7sox6x7ngcak7hfey3iuvcv45s5oz7a",
+        "log-group-id": "ocid1.loganalyticsloggroup.oc1.eu-frankfurt-1.amaaaaaaufnzx7iakfepgantk22dx4fay7fmhwsx6mmshrdthwwdkg5a7hua",
+        "log-group-name": "analytics001",
+        "source-display-name": "Linux Cron Logs",
+        "source-name": "LinuxCronLogSource",
+        "source-type-name": "os_file"
+      },
+      {
+        
+        "agent-id": "ocid1.managementagent.oc1.eu-frankfurt-1.amaaaaaaufnzx7ia6vegxvpklhw23ulkjpofmrm5rm3edum66gosxafncvwq",
+        "entity-id": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaaufnzx7ial7km6jxslsnhbd7x6msd5lvrndqf7mz5u57vgktnw7ha",
+        "entity-name": "linux_130.61.211.50",
+        
+        "entity-type-name": "omc_host_linux",
+        "log-group-compartment": "ocid1.compartment.oc1..aaaaaaaaqhhyjrkidluilxlgk5xer7sox6x7ngcak7hfey3iuvcv45s5oz7a",
+        "log-group-id": "ocid1.loganalyticsloggroup.oc1.eu-frankfurt-1.amaaaaaaufnzx7iakfepgantk22dx4fay7fmhwsx6mmshrdthwwdkg5a7hua",
+        "log-group-name": "analytics001",
+        "source-display-name": "Linux Secure Logs",
+        "source-name": "LinuxSecureLogSource",
+        "source-type-name": "os_file"
+      },
+      {
+        "agent-id": "ocid1.managementagent.oc1.eu-frankfurt-1.amaaaaaaufnzx7ia6vegxvpklhw23ulkjpofmrm5rm3edum66gosxafncvwq",
+        "entity-id": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaaufnzx7ial7km6jxslsnhbd7x6msd5lvrndqf7mz5u57vgktnw7ha",
+        "entity-name": "linux_130.61.211.50",
+        
+        "entity-type-name": "omc_host_linux",
+        "log-group-compartment": "ocid1.compartment.oc1..aaaaaaaaqhhyjrkidluilxlgk5xer7sox6x7ngcak7hfey3iuvcv45s5oz7a",
+        "log-group-id": "ocid1.loganalyticsloggroup.oc1.eu-frankfurt-1.amaaaaaaufnzx7iakfepgantk22dx4fay7fmhwsx6mmshrdthwwdkg5a7hua",
+        "log-group-name": "analytics001",
+        "source-display-name": "Linux Syslog Logs",
+        "source-name": "LinuxSyslogSource",
+        "source-type-name": "os_file"
+      },
+      {
+        "agent-id": "ocid1.managementagent.oc1.eu-frankfurt-1.amaaaaaaufnzx7ia6vegxvpklhw23ulkjpofmrm5rm3edum66gosxafncvwq",
+        "entity-id": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaaufnzx7ial7km6jxslsnhbd7x6msd5lvrndqf7mz5u57vgktnw7ha",
+        "entity-name": "linux_130.61.211.50",
+     
+        "entity-type-name": "omc_host_linux",
+        "log-group-compartment": "ocid1.compartment.oc1..aaaaaaaaqhhyjrkidluilxlgk5xer7sox6x7ngcak7hfey3iuvcv45s5oz7a",
+        "log-group-id": "ocid1.loganalyticsloggroup.oc1.eu-frankfurt-1.amaaaaaaufnzx7iakfepgantk22dx4fay7fmhwsx6mmshrdthwwdkg5a7hua",
+        "log-group-name": "analytics001",
+        "source-display-name": "Linux YUM Logs",
+        "source-name": "LinuxYUMLogSource",
+        "source-type-name": "os_file"
+      }
+    ]
+  }

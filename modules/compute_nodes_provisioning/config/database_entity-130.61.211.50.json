@@ -1,0 +1,19 @@
+{
+	"agentId": "ocid1.managementagent.oc1.eu-frankfurt-1.amaaaaaaufnzx7ia6vegxvpklhw23ulkjpofmrm5rm3edum66gosxafncvwq",
+	"compartmentId": "ocid1.compartment.oc1..aaaaaaaaqhhyjrkidluilxlgk5xer7sox6x7ngcak7hfey3iuvcv45s5oz7a",
+	"entityTypeName": "Oracle Database Instance",
+	"namespace": "frnj6sfkc1ep",
+"hostname": "130.61.211.50",
+"name": "dbcs_130.61.211.50",
+"properties": {
+"AUDIT_FILE_DEST": "/u01/app/oracle/admin/orcl19/adump",
+"DIAGNOSTIC_DEST": "/u01/app/oracle",
+"adr_home": "/u01/app/oracle/diag/rdbms/orcl19/orcl19",
+"audit_dest": "/u01/app/oracle/admin/orcl19/adump",
+"host_name" : "130.61.211.50",
+"oracle_home": "/u01/app/oracle/product/19c/dbhome_1",
+"port": "1521",
+"service_name": "orcl19",
+"sid": "orcl19"
+}
+}

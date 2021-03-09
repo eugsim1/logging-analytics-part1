@@ -1,0 +1,13 @@
+{
+  "agentId": "ocid1.managementagent.oc1.eu-frankfurt-1.amaaaaaaufnzx7ia6vegxvpklhw23ulkjpofmrm5rm3edum66gosxafncvwq",
+  "compartmentId": "ocid1.compartment.oc1..aaaaaaaaqhhyjrkidluilxlgk5xer7sox6x7ngcak7hfey3iuvcv45s5oz7a",
+  "entityTypeName": "omc_host_linux",
+  "freeformTags": {
+    "Creator": "Eugene Simos",
+    "Project": "analytics HOL"
+  },
+  "hostname": "130.61.211.50",
+  "name": "linux_130.61.211.50",
+  "namespace": "frnj6sfkc1ep",
+  "timezoneRegion": "Europe/Helsinki"
+}

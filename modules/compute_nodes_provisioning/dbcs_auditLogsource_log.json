@@ -1,0 +1,17 @@
+{
+  "compartmentId": "$ANALYTICS_COMPARTMENT",
+  "isFromRepublish": true,
+   "namespaceName": "$ANALYTICS_NAMESPACE",
+  "items": [ 
+    { 
+	  "agentId": "$AGENT_ID",
+      "entityId": "$ENTITY_ID",
+      "entityName": "$NAME_ENTITY",
+      "entityTypeName": "omc_oracle_db_instance",
+      "host": "$HOSTNAME",
+      "logGroupId": "$LOG_GROUP_ID",
+      "sourceName": "DBAuditLogSource",
+      "sourceTypeName": "os_file"
+    }
+	]
+}

@@ -1,0 +1,88 @@
+ {
+   "compartmentId": "$ANALYTICS_COMPARTMENT",
+  "isFromRepublish": true,
+   "namespaceName": "$ANALYTICS_NAMESPACE",
+    "items": [
+      {
+        
+        "agent-id": "$AGENT_ID",
+        "entity-id": "$ENTITY_ID",
+        "entity-name": "$NAME_ENTITY",  
+        "entity-type-name": "omc_host_linux",                   
+        "log-group-compartment": "$LOG_GROUP_COMPRTMENT",
+        "log-group-id": "$LOG_GROUP_ID",
+        "log-group-name": "$LOG_GROUP_NAME",        
+        "source-display-name": "Ksplice Logs",
+        "source-name": "KspliceLogSource",
+        "source-type-name": "os_file"        
+      },
+      {
+        
+        "agent-id": "$AGENT_ID",
+        "entity-id": "$ENTITY_ID",
+        "entity-name": "$NAME_ENTITY",
+    
+        "entity-type-name": "omc_host_linux",       
+        "log-group-compartment": "$LOG_GROUP_COMPRTMENT",
+        "log-group-id": "$LOG_GROUP_ID",
+        "log-group-name": "$LOG_GROUP_NAME",
+        "source-display-name": "Linux Audit Logs",
+        "source-name": "AuditLogSource",
+        "source-type-name": "os_file"    
+      },
+      {
+        
+        "agent-id": "$AGENT_ID",
+        "entity-id": "$ENTITY_ID",
+        "entity-name": "$NAME_ENTITY",
+        
+        "entity-type-name": "omc_host_linux",       
+       "log-group-compartment": "$LOG_GROUP_COMPRTMENT",
+        "log-group-id": "$LOG_GROUP_ID",
+        "log-group-name": "$LOG_GROUP_NAME",
+        "source-display-name": "Linux Cron Logs",
+        "source-name": "LinuxCronLogSource",
+        "source-type-name": "os_file"
+      },
+      {
+        
+        "agent-id": "$AGENT_ID",
+        "entity-id": "$ENTITY_ID",
+        "entity-name": "$NAME_ENTITY",
+        
+        "entity-type-name": "omc_host_linux",
+        "log-group-compartment": "$LOG_GROUP_COMPRTMENT",
+        "log-group-id": "$LOG_GROUP_ID",
+        "log-group-name": "$LOG_GROUP_NAME",
+        "source-display-name": "Linux Secure Logs",
+        "source-name": "LinuxSecureLogSource",
+        "source-type-name": "os_file"
+      },
+      {
+        "agent-id": "$AGENT_ID",
+        "entity-id": "$ENTITY_ID",
+        "entity-name": "$NAME_ENTITY",
+        
+        "entity-type-name": "omc_host_linux",
+        "log-group-compartment": "$LOG_GROUP_COMPRTMENT",
+        "log-group-id": "$LOG_GROUP_ID",
+        "log-group-name": "$LOG_GROUP_NAME",
+        "source-display-name": "Linux Syslog Logs",
+        "source-name": "LinuxSyslogSource",
+        "source-type-name": "os_file"
+      },
+      {
+        "agent-id": "$AGENT_ID",
+        "entity-id": "$ENTITY_ID",
+        "entity-name": "$NAME_ENTITY",
+     
+        "entity-type-name": "omc_host_linux",
+        "log-group-compartment": "$LOG_GROUP_COMPRTMENT",
+        "log-group-id": "$LOG_GROUP_ID",
+        "log-group-name": "$LOG_GROUP_NAME",
+        "source-display-name": "Linux YUM Logs",
+        "source-name": "LinuxYUMLogSource",
+        "source-type-name": "os_file"
+      }
+    ]
+  }

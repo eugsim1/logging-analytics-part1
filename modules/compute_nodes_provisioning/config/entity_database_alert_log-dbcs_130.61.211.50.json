@@ -1,0 +1,17 @@
+{
+  "compartmentId": "ocid1.compartment.oc1..aaaaaaaaqhhyjrkidluilxlgk5xer7sox6x7ngcak7hfey3iuvcv45s5oz7a",
+  "isFromRepublish": true,
+   "namespaceName": "frnj6sfkc1ep",
+  "items": [ 
+    { 
+	  "agentId": "ocid1.managementagent.oc1.eu-frankfurt-1.amaaaaaaufnzx7ia6vegxvpklhw23ulkjpofmrm5rm3edum66gosxafncvwq",
+      "entityId": "ocid1.loganalyticsentity.oc1.eu-frankfurt-1.amaaaaaaufnzx7ia2svjnb2ofzius66pistnqz4ksh4nbagtireuu7dpvtdq",
+      "entityName": "dbcs_130.61.211.50",
+      "entityTypeName": "omc_oracle_db_instance",
+      "host": "130.61.211.50",
+      "logGroupId": "ocid1.loganalyticsloggroup.oc1.eu-frankfurt-1.amaaaaaaufnzx7iakfepgantk22dx4fay7fmhwsx6mmshrdthwwdkg5a7hua",
+      "sourceName": "DBAlertLogSource",
+      "sourceTypeName": "os_file"
+    }
+	]
+}

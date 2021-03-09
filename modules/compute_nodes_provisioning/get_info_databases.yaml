@@ -1,0 +1,27 @@
+---
+-   hosts: all
+    gather_facts: False
+    tasks:
+#      - run database script to all hosts
+      - name: copy database script
+        copy:
+         src: /home/oracle/terraform-excercises/oci-certification/logging-analytics/modules/compute_nodes_provisioning/database_config_for_analytics.sh
+         dest: /home/oracle/database_config_for_analytics.sh
+         directory_mode: no
+         owner: oracle
+         group: oinstall
+         mode: "u+rwx"
+        tags:
+          - linux
+        become: true
+        become_user: oracle         
+#      execute conf script agent ...        
+      - name: execute script configure Log analytics Agent      
+        command: /home/oracle/database_config_for_analytics.sh
+        register: database
+        tags:
+         - linux
+        become: true
+        ignore_errors: yes
+      - debug: var=database.stdout_lines	
+ 
